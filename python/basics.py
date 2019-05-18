@@ -136,3 +136,26 @@ class Book():
 
     def __del__(self):
         print('A book object has been deleted')
+        
+# Class methods that change the object attributes
+class Simple():
+
+    def __init__(self, value):
+        self.value = value
+
+    def add_value(self, amount):
+        self.value = self.value + amount
+
+    def sub_value(self,amount):
+        if (self.value - amount) > 0:
+            self.value = self.value - amount
+            print(f'Balance is {self.value}')
+        else:
+            print('Insufficient Funds')
+            
+# Module and packages
+from MyMainPackage import some_main_script
+from MyMainPackage.SubPackage import mysubscript
+
+some_main_script.report_main()
+mysubscript.sub_report()
