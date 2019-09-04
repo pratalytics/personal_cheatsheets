@@ -7,7 +7,7 @@
 
 ### Swift
 `let` for constant and `var` for mutable variables. Good practice to assign the data type to the variable declaration
-<img src="assets/swift_var_declaration_example.png" width="250">
+<img src="assets/swift_var_declaration_example.png">
 
 ### Python
 Convention - lowercase and underscore for space. Use uppercamelcase for classes
@@ -65,6 +65,9 @@ console.log('Hello ' + str);
 
 ## Loops
 ## Functions
+
+### Swift
+<img src="assets/swift_func_declaration01.png">
 ## Variable scopes
 ## Array
 ## Object
