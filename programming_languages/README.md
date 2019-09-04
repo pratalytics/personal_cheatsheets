@@ -1,14 +1,13 @@
-# Programming constructs for python, javascript
+# Programming constructs for Python, Javascript, Kotlin & Swift
 
-## Data structures
 
-### Python
-In python we can store values in a variable, list, tuple, set, dictionary and objects
 
-### Javascript
-In javascript we can store value in a variable, array and object
 
 ## Declaring and assigning variables
+
+### Swift
+`let` for constant and `var` for mutable variables. Good practice to assign the data type to the variable declaration
+<img src="assets/swift_var_declaration_example.png" width="250">
 
 ### Python
 Convention - lowercase and underscore for space. Use uppercamelcase for classes
